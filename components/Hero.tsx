@@ -1,6 +1,7 @@
 'use client'
 import { FaExternalLinkAlt } from 'react-icons/fa'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Hero() {
   return (
@@ -22,7 +23,15 @@ export default function Hero() {
             position: 'absolute', inset: 0, borderRadius: 'inherit',
             background: 'radial-gradient(circle at 40% 30%, rgba(232,90,160,0.4) 0%, transparent 60%), radial-gradient(circle at 70% 70%, rgba(90,120,255,0.4) 0%, transparent 60%)'
           }} />
-          <span style={{ fontSize: 'clamp(4rem, 12vw, 8rem)', opacity: 0.3, position: 'relative', zIndex: 1 }}>👤</span>
+          <span style={{ fontSize: 'clamp(4rem, 12vw, 8rem)', opacity: 0.3, position: 'relative', zIndex: 1 }}>👤
+          <Image 
+  src="/image/developer-pic-1.WEBP" 
+  alt="Hero Image" 
+  width={400} 
+  height={400} 
+  className="rounded-full" // Agar aapko gol image chahiye
+/>
+          </span>
         </div>
 
         {/* Hire Me Badge */}
