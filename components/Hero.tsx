@@ -19,19 +19,15 @@ export default function Hero() {
             borderRadius: '30% 70% 70% 30% / 30% 30% 70% 70%',
             animation: 'float 6s ease-in-out infinite, morphBlob 8s ease-in-out infinite',
           }}>
-          <div style={{
-            position: 'absolute', inset: 0, borderRadius: 'inherit',
-            background: 'radial-gradient(circle at 40% 30%, rgba(232,90,160,0.4) 0%, transparent 60%), radial-gradient(circle at 70% 70%, rgba(90,120,255,0.4) 0%, transparent 60%)'
-          }} />
-          <span style={{ fontSize: 'clamp(4rem, 12vw, 8rem)', opacity: 0.3, position: 'relative', zIndex: 1 }}>👤
+        
           <Image 
-  src="/image/developer-pic-1.WEBP" 
+  src="/image/manoj.jpeg" 
   alt="Hero Image" 
   width={400} 
   height={400} 
   className="rounded-full" // Agar aapko gol image chahiye
 />
-          </span>
+         
         </div>
 
         {/* Hire Me Badge */}
@@ -67,14 +63,12 @@ export default function Hero() {
       {/* Content - shows first on mobile */}
       <div className="order-1 md:order-2 md:pl-8 text-center md:text-left" style={{ animation: 'slideUp 0.8s ease both' }}>
         <h1 className="font-syne font-black leading-tight mb-5"
-          style={{ fontSize: 'clamp(1.9rem, 5vw, 3.8rem)' }}>
-          Turning Vision Into Reality With Code And Design.
+          style={{ fontSize: 'clamp(0.9rem, 5vw, 2.8rem)' }}>
+          MANOJ SACHDEVA.
         </h1>
         <p className="text-gray-400 leading-relaxed mb-8 mx-auto md:mx-0"
           style={{ fontSize: 'clamp(0.9rem, 2vw, 1.05rem)', maxWidth: 480 }}>
-          As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
-          Explore my latest projects and articles, showcasing my expertise in React.js and web development.
-        </p>
+         Revolutionizing Mod Scaff and leading the Rotary Club of Faridabad IMT with vision. </p>
         <div className="flex gap-5 items-center justify-center md:justify-start">
           <a href="#"
             className="flex items-center gap-2 px-6 py-3.5 bg-white text-black font-syne font-bold rounded-md hover:-translate-y-0.5 transition-transform text-sm">

@@ -31,13 +31,9 @@ export default function About() {
             About<br />Manoj Sachdev
           </h2>
           <p className="text-gray-400 leading-relaxed mb-4 text-sm md:text-base">
-            Hello! I'm Manoj Sachdev, a passionate Full Stack Developer and UI/UX Designer
-            with a strong eye for clean, modern interfaces.
+            Hello! I'm Manoj Sachdev, As the Founder of "Mod Scaff", Manoj Sachdeva has redefined infrastructure safety. From the "Z-Morh Tunnel" to the "Tehri Dam", his leadership in "IMT Faridabad" stands as a testament to ISO-certified precision and national-scale impact.
           </p>
-          <p className="text-gray-400 leading-relaxed mb-6 text-sm md:text-base">
-            With experience in modern web technologies, I bring ideas to life through clean
-            code and thoughtful design. Always eager to collaborate on meaningful projects.
-          </p>
+       
           <div className="grid grid-cols-2 gap-3">
             {stats.map(s => (
               <div key={s.label} className="border border-[#2a2a2a] p-4 md:p-6 rounded-lg hover:border-white hover:-translate-y-1 transition-all cursor-default">
